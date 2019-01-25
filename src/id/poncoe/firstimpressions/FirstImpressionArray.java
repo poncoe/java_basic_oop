@@ -1,4 +1,4 @@
-package id.poncoe.task;
+package id.poncoe.firstimpressions;
 
 import java.util.Scanner;
 
