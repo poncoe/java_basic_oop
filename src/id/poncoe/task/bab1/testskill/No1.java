@@ -7,7 +7,7 @@ package id.poncoe.task.bab1.testskill;
 
 /**
  *
- * @author PRAKTIKAN
+ * @author Poncoe
  */
 public class No1 {
     
