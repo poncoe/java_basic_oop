@@ -12,10 +12,13 @@ package id.poncoe.bab2.task;
 public class PemilikKucing {
     
     private String name;
-    private Kucing[] kucing;
+    //private int numOfKucing;
+    private Kucing kucing;
+    //private Kucing[] kucing;
     
     public PemilikKucing(String name){
         this.name = name;
+        //kucing = new Kucing[maxKucing];
     }
     
     public String getName(){
@@ -26,8 +29,24 @@ public class PemilikKucing {
         this.name = name;
     }
     
+    public void addKucing(Kucing meonk){
+        this.kucing=meonk;
+    }
+    
+//    public void addKucing(Kucing meonk){
+//        if (numOfKucing < kucing.length){
+//            kucing[numOfKucing] = meonk;
+//            numOfKucing++;
+//        } else System.out.println("Maaf, tidak bisa tambah kuchink baru");
+//    }
+    
+//    public int getNumOfKucing(){
+//    return numOfKucing;
+//}
+    
     public Kucing getKucing(int n){
-        return kucing[n];
+        return kucing;
+        //return kucing[n];
     }
     
 }

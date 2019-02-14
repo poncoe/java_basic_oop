@@ -26,6 +26,16 @@ public class ActivityKucing {
         Panda.setWarna("Item Putih");
         Panda.setUmur(6);
         
+        //Mendefinisikan Pemilk Kucing
+        PemilikKucing poncoe = new PemilikKucing("Kucingnya Poncoe");
+        poncoe.addKucing(Panda);
+        
+        System.out.println("Info Pemilik");
+        System.out.println("");
+        System.out.println("Nama Pemilik : "+poncoe.getName());
+        System.out.println("");
+        //poncoe = null;
+        
         //Output si Gembul Kucing
         System.out.println("Nama  = "+ Gembul.Nama);
         System.out.println("Kelamin = "+ Gembul.getKelamin());
@@ -39,5 +49,16 @@ public class ActivityKucing {
         System.out.println("Kelamin   = "+ Panda.getKelamin());
         System.out.println("Warna = "+ Panda.getWarna());
         System.out.println("Umur = "+ Panda.getUmur());
+        
+        //Menampilkan Relasi Kucing dan si Pemilik Kuchink
+        
+        //for (int i = 0; i < poncoe.getNumOfKucing(); i++) {
+//            System.out.println("Nama Kucing"+(i+1));
+//            System.out.println(" Name "+poncoe.getKucing(i).getName());
+//            System.out.println(" ID: "+poncoe.getKucing(i).getId());
+//            System.out.println(" Salary: "+poncoe.getKucing(i).getSalary());
+//            
+//        }
+        
    }
 }
