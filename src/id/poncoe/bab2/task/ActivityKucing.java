@@ -15,29 +15,29 @@ public class ActivityKucing {
         //Mendefinisikan Gembul Kucing
         Kucing Gembul = new Kucing();
         Gembul.Nama = "Gembul";
-        Gembul.Kelamin = "Jantan";
-        Gembul.Warna = "Abu-Abu";
+        Gembul.setKelamin("Jantan");
+        Gembul.setWarna("Abu-Abu");
         Gembul.setUmur(4);
         
         //Mendefinisikan Panda Kucing
         Kucing Panda = new Kucing();
-        Panda.Nama = "Gembul";
-        Panda.Kelamin = "Jantan";
-        Panda.Warna = "Item Putih";
+        Panda.Nama = "Panda";
+        Panda.setKelamin("Jantan");
+        Panda.setWarna("Item Putih");
         Panda.setUmur(6);
         
         //Output si Gembul Kucing
         System.out.println("Nama  = "+ Gembul.Nama);
-        System.out.println("Kelamin = "+ Gembul.Kelamin);
-        System.out.println("Warna = "+ Gembul.Warna);
+        System.out.println("Kelamin = "+ Gembul.getKelamin());
+        System.out.println("Warna = "+ Gembul.getWarna());
         System.out.println("Umur = "+ Gembul.getUmur());
         
         System.out.println("");
         
         //Output si Panda Kucing
         System.out.println("Nama  = "+ Panda.Nama);
-        System.out.println("Kelamin   = "+ Panda.Kelamin);
-        System.out.println("Warna = "+ Panda.Warna);
+        System.out.println("Kelamin   = "+ Panda.getKelamin());
+        System.out.println("Warna = "+ Panda.getWarna());
         System.out.println("Umur = "+ Panda.getUmur());
    }
 }

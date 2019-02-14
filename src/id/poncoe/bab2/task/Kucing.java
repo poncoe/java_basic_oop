@@ -12,8 +12,8 @@ package id.poncoe.bab2.task;
 public class Kucing {
     
     public String Nama;
-        public String Kelamin;
-        public String Warna;
+        private String Kelamin;
+        private String Warna;
         private int umurkucing;
             
     public void setUmur (int umur){
@@ -21,5 +21,19 @@ public class Kucing {
     }
     public int getUmur(){
         return umurkucing;
+    }
+    
+    public void setWarna (String warna){
+        Warna=warna;
+    }
+    public String getWarna(){
+        return Warna;
+    }
+    
+    public void setKelamin (String kelamin){
+        Kelamin=kelamin;
+    }
+    public String getKelamin(){
+        return Kelamin;
     }
 }
