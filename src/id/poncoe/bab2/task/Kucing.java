@@ -11,11 +11,18 @@ package id.poncoe.bab2.task;
  */
 public class Kucing {
     
-    public String Nama;
+        private String Nama;
         private String Kelamin;
         private String Warna;
         private int umurkucing;
-            
+    
+    public void setNama (String nama){
+        Nama=nama;
+    }
+    public String getNama(){
+        return Nama;
+    }
+        
     public void setUmur (int umur){
         umurkucing=umur;
     }
