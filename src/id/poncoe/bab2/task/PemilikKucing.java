@@ -12,7 +12,7 @@ package id.poncoe.bab2.task;
 public class PemilikKucing {
     
     private String name;
-    private int numOfKucing;
+    private int jumlahMeonk;
    // private Kucing kucing;
     private Kucing[] kucing;
     
@@ -33,17 +33,17 @@ public class PemilikKucing {
 //        this.kucing=meonk;
 //    }
     
-    public void addKucing(Kucing meonk){
-        if (numOfKucing < kucing.length){
-            kucing[numOfKucing] = meonk;
-            numOfKucing++;
+    public void tambahKucink(Kucing meonk){
+        if (jumlahMeonk < kucing.length){
+            kucing[jumlahMeonk] = meonk;
+            jumlahMeonk++;
         } else 
             System.out.println("(ERROR!) Maaf, tidak bisa tambah kuchink baru");
             System.out.println("");
     }
     
-    public int getNumOfKucing(){
-    return numOfKucing;
+    public int getJumlahMeonk(){
+    return jumlahMeonk;
 }
     
     public Kucing getKucing(int n){

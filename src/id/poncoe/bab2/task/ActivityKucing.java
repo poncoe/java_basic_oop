@@ -28,8 +28,8 @@ public class ActivityKucing {
         
         //Mendefinisikan Pemilk Kucing
         PemilikKucing poncoe = new PemilikKucing("Poncoe",2);
-        poncoe.addKucing(Panda);
-        poncoe.addKucing(Gembul);
+        poncoe.tambahKucink(Panda);
+        poncoe.tambahKucink(Gembul);
         
         System.out.println("=======================");
         System.out.println("Informasi Pemilik");
@@ -55,7 +55,7 @@ public class ActivityKucing {
         
         //Menampilkan Relasi Kucing dan si Pemilik Kuchink
         
-        for (int i = 0; i < poncoe.getNumOfKucing(); i++) {
+        for (int i = 0; i < poncoe.getJumlahMeonk(); i++) {
             System.out.println("Nama Kucingnya si "+poncoe.getName()+" Yang Ke-"+(i+1));
             System.out.println("");
             System.out.println(" Name "+poncoe.getKucing(i).getNama());
