@@ -7,7 +7,7 @@ package id.poncoe.bab2.testskill;
 
 /**
  *
- * @author PRAKTIKAN
+ * @author poncoe
  */
 public class Point {
         int x,y;
