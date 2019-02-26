@@ -6,7 +6,6 @@
 package id.poncoe.bab4.task;
 
 /**
- *
  * @author poncoe
  */
 public class Karyawan {
