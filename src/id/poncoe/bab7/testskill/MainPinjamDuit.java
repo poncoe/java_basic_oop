@@ -78,7 +78,7 @@ public class MainPinjamDuit {
         private int asset, pinjaman;
         
         public void Bank(String vmanager, int asset){
-            this.manager = vmanager;
+            //this.manager = vmanager;
             this.asset = asset;
         }
         
@@ -86,13 +86,5 @@ public class MainPinjamDuit {
             this.pinjaman = pinjaman;
         }
     
-    public static void main(String[] args) {
-        Bank bank1 = new Bank("ManagerBank 1",5000000);
-    	OrangKaya amir = new OrangKaya("Amir",2000000);
-    	OrangMiskin badu = new OrangMiskin("Badu",0);
-    	badu.pinjamDuit((Kreditur) amir, 1000000);
-    	badu.pinjamDuit((Kreditur) bank1, 800000);
-    	badu.pinjamDuit((Kreditur) amir, 600000);
     }
-  }
 }
